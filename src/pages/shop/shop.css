@@ -1,0 +1,43 @@
+.shop-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.shop-background {
+    background-image: url('./Rectangle 1.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-container .shop-background h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #000;
+}
+
+.shop-container .shop-background .shop-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-container .shop-background .shop-links a {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.shop-container .shop-background .shop-links .arrow-right{
+    width: 20px;
+    height: 20px;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+}

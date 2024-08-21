@@ -1,0 +1,294 @@
+.checkoutinputs-container{
+    width: 100%;
+    height: 200vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.checkoutinputs-container .checkoutinputs-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.checkoutinputs-container .checkoutinputs-left>h1{
+    margin-right: 220px;
+    margin-bottom: 40px;
+}
+
+.checkoutinputs-container .checkoutinputs-left .checkoutinputs-names-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.checkoutinputs-container .checkoutinputs-left .checkoutinputs-names-div .checkoutinputs-names-div-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checkoutinputs-container .checkoutinputs-left .checkoutinputs-names-div .checkoutinputs-names-div-left input{
+    width: 200px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+}
+
+.checkoutinputs-container .checkoutinputs-left .checkoutinputs-names-div .checkoutinputs-names-div-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checkoutinputs-container .checkoutinputs-left .checkoutinputs-names-div .checkoutinputs-names-div-right input{
+    width: 200px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+}
+
+.checkoutinputs-container .checkoutinputs-left form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.checkoutinputs-container .checkoutinputs-left form input{
+    width: 430px;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.checkoutinputs-container .checkoutinputs-left form .inp{
+    width: 430px;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.checkoutinputs-container .checkoutinputs-left form label{
+    margin-bottom: 15px;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    margin-bottom: 15px;
+}
+
+.dropdown-label {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.custom-select #country{
+    color: #9F9F9F;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    outline: none;
+    height: 70px;
+}
+
+.select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; 
+    font-size: 21px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.checkoutinputs-container .checkoutinputs-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.checkoutinputs-container .checkoutinputs-right hr{
+    width: 78%;
+    height: 2px;
+    background-color: #9F9F9F;
+    margin-bottom: 20px;
+}
+
+.checkoutinputs-container .checkoutinputs-right-top-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.checkoutinputs-container .checkoutinputs-right-top-info .checkoutinputs-right-top-info-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checkoutinputs-container .checkoutinputs-right-top-info .checkoutinputs-right-top-info-left p{
+    color: #9F9F9F;
+}
+
+.checkoutinputs-container .checkoutinputs-right-top-info .checkoutinputs-right-top-info-left p span{
+    color: #000;
+}
+
+.checkoutinputs-container .checkoutinputs-right-top-info .checkoutinputs-right-top-info-right{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checkoutinputs-container .checkoutinputs-right-top-info .checkoutinputs-right-top-info-right h1{
+    color: #B88E2F;
+}
+
+.checkoutinputs-container .checkoutinputs-right-bottom-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checkoutinputs-container .checkoutinputs-right-bottom-info-top p{
+    color: #9F9F9F;
+    line-height: 24px;
+}
+
+.special{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.special div{
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.special2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.special2 span{
+    color: #9F9F9F;
+}
+
+.special2 div{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 1px solid #9F9F9F;
+    border-radius: 50%;
+}
+
+.special3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.special3 span{
+    color: #9F9F9F;
+}
+
+.special3 div{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 1px solid #9F9F9F;
+    border-radius: 50%;
+}
+
+.checkoutinputs-right-bottom-info button{
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.checkoutinputs-right-bottom-info button:hover{
+    transform: scale(1.050);
+}
+
+.checkoutinputs-right-bottom-info button:active{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}

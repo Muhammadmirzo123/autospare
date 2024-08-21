@@ -1,0 +1,251 @@
+.about-container {
+  width: 100%;
+  height: 110vh;
+  background-color: #fff;
+  padding: 20px 150px;
+  margin-bottom: 50px;
+}
+
+.about-container .about-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 900px;
+}
+
+.about-container .about-links > div {
+  width: calc(1.6px);
+  height: 40px;
+  border: 2px solid #9f9f9f;
+  margin-top: 5px;
+}
+
+.about-container .about-links a{
+  font-size: 20px;
+  margin: 10px 0 0 0;
+  color: #9f9f9f;
+  text-decoration: none;
+}
+
+.about-container .about-links a:last-child {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.about-container .about-links .arrow-right {
+  width: 20px;
+  height: 20px;
+  color: #000;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.about-container .about-card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 50px;
+}
+
+.about-container .about-left-images {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .about-left-images .right-img-div {
+  width: 500px;
+  height: 600px;
+  background-color: #d4d4d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 100px;
+  margin-bottom: 120px;
+}
+
+.about-container .about-left-images .right-img-div img {
+  width: 850px;
+  height: 91.1%;
+}
+
+.about-container .about-left-images .about-left-mini-images {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 20px;
+  margin-left: 70px;
+  margin-bottom: 355px;
+}
+
+.about-container .about-left-images .about-left-mini-images div {
+  width: 70px;
+  height: 70px;
+  background-color: #d4d4d4;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .about-left-images .about-left-mini-images div > img {
+  width: 50px;
+  height: 50px;
+}
+
+.about-left-image img {
+  width: 80%;
+  height: 100%;
+}
+
+.about-container .about-right-text {
+  width: 50%;
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.about-container .about-right-text > h1 {
+  font-size: 42px;
+  color: #000;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.about-container .about-right-text > h3 {
+  color: #9f9f9f;
+  margin-bottom: 10px;
+}
+
+.about-container .about-right-text > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.about-container .about-right-text > div > p {
+  font-size: 15px;
+}
+
+.about-container .about-right-text > div > div {
+  height: 30px;
+  border: 1px solid #9f9f9f;
+}
+
+.about-container .about-right-text > div > span {
+  color: #9f9f9f;
+}
+
+.about-container .about-right-text > p {
+  line-height: 20px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.about-container .about-right-text > h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+
+.about-container .about-right-text > h5 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+
+.about-container .about-right-text .about-right-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.about-container .about-right-text .about-right-buttons button:first-child {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  background-color: #fbebb5;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.about-container .about-right-text .about-right-buttons button:nth-child(2) {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  background-color: #faf4f4;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.about-container .about-right-text .about-right-buttons button:nth-child(3) {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  background-color: #faf4f4;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.about-container .about-right-text .about-right-color-div {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.about-container .about-right-text .about-right-add-div .counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.about-container .about-right-text .about-right-add-div h1{
+  margin-left: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.about-container
+  .about-right-text
+  .about-right-add-div
+  .counter-container
+  button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.about-container
+  .about-right-text
+  .about-right-add-div
+  .counter-container
+  span {
+  margin: 0 10px;
+  font-size: 20px;
+}
+  

@@ -1,0 +1,33 @@
+.checkout-container{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.checkout-container h1 {
+    font-size: 48px;
+}
+
+.checkout-container .checkout-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.checkout-container .checkout-links a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.checkout-container .checkout-links .arrow-right{
+    font-size: 25px;
+}

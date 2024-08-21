@@ -1,0 +1,120 @@
+.contactbanner-container{
+    width: 100%;
+    height: 180vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 100px;
+    user-select: none;
+}
+
+.contactbanner-container>h1{
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+.contactbanner-container>p{
+    color: #9F9F9F;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contactbanner-container .contactbanner-inputs{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 60px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-left .contactbanner-location-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-left .contactbanner-location-div .icon-location{
+    font-size: 30px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-left .contactbanner-location-div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-left .contactbanner-call-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-left .contactbanner-call-div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-left .contactbanner-call-div .icon-call{
+    font-size: 30px;
+}
+
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px; 
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-right form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-right form input{
+    width: 500px;
+    height: 70px;
+    background-color: #fff;
+    text-indent: 20px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    font-size: 16px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-right form .massage-input{
+    width: 500px;
+    height: 160px;
+    background-color: #fff;
+    text-indent: 20px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    font-size: 16px;
+}
+
+.contactbanner-container .contactbanner-inputs .contactbanner-inputs-right form button{
+    width: 220px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    font-size: 16px;
+    background-color: #fff;
+}

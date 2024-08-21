@@ -1,0 +1,46 @@
+.arrivals{
+    display: flex;
+    background-color: #A5A5A5;
+}
+
+.arrivals .arrivals-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrivals .arrivals-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.arrivals .arrivals-right p{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.arrivals .arrivals-right h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.arrivals .arrivals-right button{
+    padding: 16px 30px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.arrivals .arrivals-right button:hover{
+    background-color: #000;
+    color: #fff;
+}

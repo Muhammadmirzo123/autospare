@@ -1,0 +1,11 @@
+.tools h1{
+    margin: 50px 490px;
+}
+
+.tools>a{
+    font-size: 50px;
+    color: #000;
+    text-decoration: none;
+    margin: 50px;
+    margin-left: 700px;
+}

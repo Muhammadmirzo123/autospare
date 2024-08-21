@@ -1,0 +1,67 @@
+.best {
+    width: 100%;
+    height: 105vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.best h1{
+    margin-top: 100px;
+}
+
+.best> p{
+    color: #9F9F9F;
+    margin-top: 30px;
+}
+
+.best button{
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.best button div{
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.best-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.best .best-cards .best-card{
+    width: 210px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.best .best-cards .best-card img{
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+.best .best-cards .best-card p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.best .best-cards .best-card h2{
+    margin-right: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.shop-filter-container {
+    width: 100%;
+    height: 70px;
+    background-color: #D4D4D4;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.shop-filter-container .shop-filter-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop-filter-container .shop-filter-icons button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+.shop-filter-container .shop-filter-colum-hr{
+    width: 1px;
+    height: 40px;
+    background-color: #9F9F9F;
+}
+
+.shop-filter-container p{
+    margin-left: 60px;
+}
+
+.shop-filter-container .shop-filter-show-shorts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 360px;
+    gap: 30px;
+}
+
+.shop-filter-container .shop-filter-show-shorts label{
+    font-size: 18px;
+}
+
+.shop-filter-container .shop-filter-show-shorts .first-input {
+    width: 60px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    list-style: none;
+}
+
+.shop-filter-container .shop-filter-show-shorts input{
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    padding: 0 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}

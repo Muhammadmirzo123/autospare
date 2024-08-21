@@ -1,0 +1,28 @@
+.about-small-info-container{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-small-info-container .hrs{
+    width: 90%;
+    height: 2px;
+    background-color: #9f9f9f;
+}
+
+.about-small-info-container .about-small-info-text p{
+    color: #9F9F9F;
+    margin-bottom: 10px;
+}
+
+.about-small-info-container .about-small-info-text p > span {
+    color: #9F9F9F;
+}   
+
+.about-small-info-container .about-small-info-text p > .span {
+    color: #000;
+}
+

@@ -1,0 +1,28 @@
+.shop-list-info {
+  width: 100%;
+  height: 40vh;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  gap: 20px;
+}
+
+.shop-list-info .shop-list-info-baby {
+  width: 33%;
+  margin: auto;
+}
+
+.shop-list-info .shop-list-info-big .shop-list-info-baby h1 {
+  font-size: 60px;
+  margin: 20px;
+}
+
+
+.shop-list-info .shop-list-info-baby p{
+  color: #9F9F9F;
+  margin-top: 15px;
+  line-height: 20px;
+  font-size: 18px;
+}
+
