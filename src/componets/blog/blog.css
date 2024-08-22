@@ -1,16 +1,18 @@
 .blog{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     background-color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     padding: 30px;
 }
 
-.blog p{
+.blog>p{
+    margin-top: 20px;
     margin-bottom: 20px;
+    color: #9F9F9F;
 }
 
 .blog>  button{
@@ -29,4 +31,46 @@
     margin-top: 10px;
     margin-left: 3px;
     cursor: pointer;
+}
+
+.blog .blog-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.blog .blog-cards .blog-card{
+    width: 400px;
+    height: 550px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.blog .blog-cards .blog-card p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.blog .blog-cards .blog-card>button{
+    width: 130px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.blog .blog-cards .blog-card button div{
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
 }

@@ -8,15 +8,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Shoplistproducts = () => {
-  const [isCartOpen, setIsCartOpen] = useState(false);
-
-  const openCart = () => {
-    setIsCartOpen(true);
-  };
-
-  const closeCart = () => {
-    setIsCartOpen(false);
-  };
 
   return (
     <div>
@@ -54,22 +45,22 @@ const Shoplistproducts = () => {
           <div className="shop-list-products-cards1">
             <div className="shop-list-products-card">
               <Link to="/about">
-                <img onClick={openCart} src={gildirak}></img>
+                <img  src={gildirak}></img>
               </Link>
             </div>
             <div className="shop-list-products-card">
               <Link to="/about">
-                <img onClick={openCart} src={gildirak}></img>
+                <img  src={gildirak}></img>
               </Link>
             </div>
             <div className="shop-list-products-card">
               <Link to="/about">
-                <img onClick={openCart} src={gildirak}></img>
+                <img  src={gildirak}></img>
               </Link>
             </div>
             <div className="shop-list-products-card">
               <Link to="/about">
-                <img onClick={openCart} src={gildirak}></img>
+                <img  src={gildirak}></img>
               </Link>
             </div>
           </div>
@@ -84,36 +75,7 @@ const Shoplistproducts = () => {
           </div>
         </div>
       </div>
-      <div className={`cart-sidebar ${isCartOpen ? "open" : ""}`}>
-        <div className="cart-header">
-          <h2>Shopping Cart</h2>
-          <span className="closebtn" onClick={closeCart}>
-            &times;
-          </span>
-        </div>
-        <div className="cart-content">
-          <div className="cart-item">
-            <img src={tire} alt="" />
-            <div className="item-details">
-              <p>MIRAGE MR-AT172 285/65</p>
-              <p>Rs. 25,000.00</p>
-            </div>
-          </div>
-          <div className="cart-item">
-            <img src={tire} alt="" />
-            <div className="item-details">
-              <p>MIRAGE MR-AT172 285/65</p>
-              <p>Rs. 25,000.00</p>
-            </div>
-          </div>
-        </div>
-        <div className="cart-footer">
-          <h3>Subtotal: Rs. 50,000.00</h3>
-          <br />
-          <button className="checkout-btn">Checkout</button>
-          <button className="checkout-btn">View Cart</button>
-        </div>
-      </div>
+      
     </div>
   );
 };

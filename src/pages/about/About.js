@@ -10,7 +10,6 @@ import tire3 from "./Outdoor sofa set_2 1.png";
 import tire4 from "./Stuart sofa 1.png";
 import Aboutsmallinfo from "../../componets/aboutsmallinfo/Aboutsmallinfo";
 import Aboutproductsdetails from "../../componets/aboutproductsdetails/Aboutproductsdetails";
-import { useState } from "react";
 
 const About = () => {
 
@@ -24,7 +23,7 @@ const About = () => {
           <Link to="/shop">Shop</Link>
           <RiArrowRightSLine className="arrow-right" />
           <div></div>
-          <Link to="/about" >Tire</Link>
+          <Link to="/about">Tire</Link>
         </div>
 
         <div className="about-card">
@@ -77,7 +76,7 @@ const About = () => {
                 <span id="counter">1</span>
                 <button id="increment">+</button>
               </div>
-                <h1>Add to Cart</h1>
+              <button>Add to Cart</button>
             </div>
           </div>
         </div>

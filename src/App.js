@@ -10,6 +10,7 @@ import Checkout from './pages/checkout/Checkout';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Cart from './pages/cart/Cart';
+import ProductPage from './componets/productspage/Productspage';
 
 function App() {
   const { pathname } = useLocation();
@@ -29,6 +30,7 @@ function App() {
         <Route path="/account" element={<Account />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/productspage" element={<ProductPage />} />
       </Routes>
     </div>
   );
