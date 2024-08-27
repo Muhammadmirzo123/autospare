@@ -9,6 +9,7 @@ import Footer from '../../componets/footer/Footer';
 import Homeabout from '../../componets/homeabout/Homeabout';
 import Ourinstagram from '../../componets/ourinstagram/Ourinstagram';
 import Blog from "../../componets/blog/Blog"
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
         <div className='banner-left'>
           <h1> <span>Auto</span> Spare Parts</h1>
           <p>All Major Brands Available</p>
-          <button>Shop Now</button>
+          <button><Link to="/shop">Shop Now</Link></button>
           
         </div>
         <div className='banner-right'>

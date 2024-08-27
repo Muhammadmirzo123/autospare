@@ -16,20 +16,12 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
-  const [isCartOpen, setIsCartOpen] = useState(false);
-
-  const openCart = () => {
-    setIsCartOpen(true);
-  };
-
-  const closeCart = () => {
-    setIsCartOpen(false);
-  };
-
   return (
     <div>
       <header>
+        <Link to="/">
         <img src={auto} alt="auto" className="auto"></img>
+        </Link>
         <div className="header-links">
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>

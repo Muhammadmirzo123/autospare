@@ -10,8 +10,20 @@ import tire3 from "./Outdoor sofa set_2 1.png";
 import tire4 from "./Stuart sofa 1.png";
 import Aboutsmallinfo from "../../componets/aboutsmallinfo/Aboutsmallinfo";
 import Aboutproductsdetails from "../../componets/aboutproductsdetails/Aboutproductsdetails";
+import { useState } from "react";
+import { BsBagX } from "react-icons/bs";
+import { IoMdCloseCircle } from "react-icons/io";
 
 const About = () => {
+  const [isModal, setIsModal] = useState(false);
+
+  const handleAddToCartClick = () => {
+    setIsModal(true);
+  };
+
+  const handleCloseCart = () => {
+    setIsModal(false);
+  };
 
   return (
     <div className="absolute">
@@ -72,15 +84,42 @@ const About = () => {
             <div className="about-right-color-div"></div>
             <div className="about-right-add-div">
               <div class="counter-container">
-                <button id="decrement">-</button>
+                <button className="decrement">-</button>
                 <span id="counter">1</span>
-                <button id="increment">+</button>
+                <button className="increment">+</button>
               </div>
-              <button>Add to Cart</button>
+              <button onClick={handleAddToCartClick}>Add to Cart</button>
             </div>
           </div>
         </div>
       </div>
+      {isModal && (
+        <div className="shopping-cart">
+          <div className="shopping-cart-header">
+            <h1>Shopping Cart</h1>
+            <span onClick={handleCloseCart}>
+              <BsBagX className="close-icon"/>
+            </span>
+          </div>
+          <hr/>
+          <div className="cart-content">
+            <div className="cart-img-div">
+            <img src={tire} alt="Product"/>
+            </div>
+            <div className="cart-text">
+              <p>MIRAGE MR-AT172 285/65</p>
+              <p>1    x <span>Rs. 250,000.00</span></p>
+            </div>
+            <IoMdCloseCircle className="delete-icon"/>
+          </div>
+          <p>Subtotal<span> Rs. 50,000.00</span></p>
+          <hr/>
+          <div className="cart-actions">
+            <button>View Cart</button>
+            <button>Checkout</button>
+          </div>
+        </div>
+      )}
       <Aboutsmallinfo />
       <Aboutproductsdetails />
       <Footer />
